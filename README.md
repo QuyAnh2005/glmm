@@ -95,10 +95,16 @@ glmm/
 │   │   └── ordered_binomial.py    # OrderedBinomialGLMM implementation
 │   └── utils/                     # Utility functions
 │       └── math.py                # Mathematical helper functions
+├── data/                          # Data directory
+│   ├── raw/                       # Raw data files
+│   └── processed/                 # Processed data files
+├── notebooks/                     # Jupyter notebooks
+│   ├── eda.ipynb                  # Exploratory Data Analysis
+│   └── implementation.ipynb       # Model implementation and results
 ├── examples/                      # Example scripts
 │   └── run_ordered_binomial.py    # Example script for OrderedBinomialGLMM
 ├── tests/                         # Test suite
-│   ├── test_ordered_binomial.py   # Tests for OrderedBinomialGLMM
+│   └── test_ordered_binomial.py   # Tests for OrderedBinomialGLMM
 ├── setup.py                       # Package configuration
 └── pyproject.toml                 # Build system requirements
 ```
